@@ -25,6 +25,7 @@ You should also take a look at the notes and "gotchas" for your specific cloud p
 * [OVHcloud](./cloudprovider/ovhcloud/README.md)
 * [Linode](./cloudprovider/linode/README.md)
 * [ClusterAPI](./cloudprovider/clusterapi/README.md)
+* [Rancher](./cloudprovider/rancher/README.md)
 
 # Releases
 
@@ -158,3 +159,4 @@ Supported cloud providers:
 * Linode https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/linode/README.md
 * Hetzner https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/hetzner/README.md
 * Cluster API https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/clusterapi/README.md
+* Rancher https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/rancher/README.md
