@@ -38,7 +38,7 @@ const (
 	testCluster   = "test-cluster"
 	testNamespace = "default"
 	nodeGroupDev  = "dev"
-	nodeGroupProd = "prod"
+	nodeGroupProd = "ng-long-prod"
 )
 
 func TestNodeGroupNodes(t *testing.T) {

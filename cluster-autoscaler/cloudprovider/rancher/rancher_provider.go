@@ -157,7 +157,7 @@ func (provider *RancherCloudProvider) NodeGroupForNode(node *corev1.Node) (cloud
 		// so we trim the cluster name and then cut off the last two parts to
 		// leave us with the node group name
 		parts := strings.Split(strings.TrimPrefix(node.Name, provider.config.ClusterName), "-")
-		if len(parts) != 4 {
+		if len(parts) < 4 {
 			return nil, fmt.Errorf("unable to get node group name out of node %s: unexpected node name format", node.Name)
 		}
 		groupName := strings.Join(parts[1:len(parts)-2], "-")
